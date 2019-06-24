@@ -1,6 +1,6 @@
 ## VCSA deployment module for Terraform
 
-This module can be used to bootstrap a VCSA install prior to using the Terraform vSphere provider. Use the outputs as the variables for setting up the provider to create a soft dependancy or use depends on to ensure it is deployed first.
+This module can be used to bootstrap a VCSA install prior to using the Terraform vSphere provider. Use the outputs as the variables for setting up the provider to create a soft dependancy or use explicit "depends_on" to ensure it is deployed first.
 
 This is new code, **USE AT YOUR OWN RISK**! 
 
