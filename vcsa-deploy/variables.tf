@@ -40,6 +40,11 @@ variable "VIDatacenter" {
   type = string
   default = ""
 }
+variable "VICluster" {
+  description = "Cluster on system deploying VCSA to\n(Leave blank when deploying to ESXi, not used)"
+  type = string
+  default = ""
+}
 variable "VCSADiskMode" {
   description = "Disk format for VCSA deployment"
   type = string
