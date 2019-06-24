@@ -2,9 +2,8 @@
 # Give path to mounted/extracted VCSA ISO
 
 variable "VCSAPath" {
-  description = "Path to location of mounted or extracted VCSA iso; defaults to \"<module path>/iso\""
+  description = "Path to location of mounted or extracted VCSA iso"
   type = string
-  default = "${path.module}/iso/"
 }
 variable "VIJSONTemplate" {
   description = "Name of JSON template file to use for interpolation" 
