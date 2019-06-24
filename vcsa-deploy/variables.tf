@@ -17,8 +17,9 @@ variable "VIServer" {
   type = string
 }
 variable "VIUsername" {
-  description = "Username on system deploying VCSA to"
+  description = "Username on system deploying VCSA to (defaults to "root" for ESX)"
   type = string
+  default = "root"
 }
 variable "VIPassword" {
   description = "Password on system deploying VCSA to"
