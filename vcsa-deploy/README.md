@@ -7,8 +7,8 @@ This is new code, **USE AT YOUR OWN RISK**!
 ### Notes:
 
   - Extract the VCSA ISO to a local copy of the module directory in a folder called ISO, or point the path variable to a mounted or extracted ISO elsewhere
-  - Ensure you use the correct target specification (ESX or vCenter). 
-  - Some sensible defaults have been choosen to reduce the number of manadatory variables required.
+  - Ensure you use the correct target specification (ESX or vCenter)
+  - Some sensible defaults have been choosen to reduce the number of manadatory variables required
   - Changing the FQDN of the vCenter will trigger a redeployment. Once run, and as long as the FQDN doesn't change in state, it shouldn't run again. This has not been tested yet!
 
 This version is for __vCenter 6.7__, and has only been tested with deploying 6.7 U2 onto an ESXi host so far. 
